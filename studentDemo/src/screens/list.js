@@ -34,7 +34,7 @@ class List extends Component {
             snapshot.forEach(function(childSnapshot) {
          
               var childData = childSnapshot.val();
-              this.setstate({names:childData});
+                   alert(childData.name + childData.group + childData.roll)
             });
           });
           }
