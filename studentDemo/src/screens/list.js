@@ -34,7 +34,8 @@ class List extends Component {
             snapshot.forEach(function(childSnapshot) {
          
               var childData = childSnapshot.val();
-                   alert(childData.name + childData.group + childData.roll)
+                 alert("name :"+childData.name + " , group :"+childData.group + " , Roll num :"+childData.roll)
+
             });
           });
           }
